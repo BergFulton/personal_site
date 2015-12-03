@@ -1,0 +1,143 @@
+body {
+}
+
+h1 {
+	text-align: center;
+	font-family:'Playfair Display', serif;
+	font-size: 2.5em;
+	margin: 0 50px;
+}
+
+
+h2 {
+	text-align: center;
+	font-family:'Playfair Display', serif;
+	font-size: 1.5em;
+	margin: 0px 50px 10px;
+
+}
+
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-weight: bolder;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	line-height: 1.5;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+a:link {
+	color: rgba(255, 169, 73, 1);
+}
+
+a:visited {
+	color: rgba(255, 169, 73, 1);
+}
+
+
+a:hover {
+	color: rgba(255, 169, 73, 0.46);
+
+}
+
+
+.main-header {
+	/*height: 250px;*/
+	background-image:url('../img/Rooftop.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+	padding-bottom: 50px;
+}
+
+.container {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #ffa949;
+}
+
+.main-header .container,
+footer .container {
+	border-bottom: none;
+}
+
+.headshot {
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+.body_text {
+	margin: 0;
+	padding: 0;
+}
+
+ul.unstyled_list {
+	padding-left: 0;
+}
+
+
+
+/*Clearfix for your floating issues*/
+
+.container,
+#about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Media Queries. Here be dragons. */
+@media (min-width: 500px) {
+	h2 {
+		font-size: 2.5em;
+	}
+	h1 {
+		font-size: 4em;
+	}
+
+}
+
+@media (min-width: 500px) {
+	.section_header {
+	margin-top: 0; }
+}
+
+@media (min-width: 500px) {
+	.headshot {
+		float: left;
+		width: 30%;
+		margin: 0 1.5% 1em 0;
+	}
+}
+
+
+/*font-family: 'Playfair Display', serif;
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Quattrocento', serif;
+
+font-family: 'Quattrocento Sans', sans-serif;*/
