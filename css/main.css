@@ -7,15 +7,16 @@ h1 {
 	color: rgba(255, 169, 73, 1);
 	text-transform: uppercase;
 	font-size: 2.5em;
-	margin: 0 50px;
+	margin: auto 0;
 }
 
 
 h2 {
 	text-align: center;
-	font-family:'Playfair Display', serif;
+	font-family: 'Vast Shadow', cursive;
+	text-transform: uppercase;
 	font-size: 1.5em;
-	margin: 0px 50px 10px;
+	margin: auto 0;
 
 }
 
@@ -39,6 +40,10 @@ li {
 	list-style: none;
 }
 
+.headlist {
+	display: inline;
+}
+
 a {
 	text-decoration: none;
 
@@ -60,14 +65,23 @@ a:hover {
 
 
 .main-header {
-	/*height: 250px;*/
-	background-image:url('../img/Rooftop.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 	color: white;
+	text-align: center;
+}
+
+.main-header h1 {
 	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
-	padding-bottom: 50px;
+	/*word-wrap: break-word;*/
+}
+
+.main-header h2 {
+	color: #666;
+	margin-bottom: 0.5em;
+}
+
+.main-header ul {
+	margin: 0;
+	padding: 0;
 }
 
 .container {
@@ -115,9 +129,6 @@ ul.unstyled_list {
 
 /* Media Queries. Here be dragons. */
 @media (min-width: 500px) {
-	h2 {
-		font-size: 2.5em;
-	}
 	h1 {
 		font-size: 4em;
 	}
@@ -137,11 +148,3 @@ ul.unstyled_list {
 	}
 }
 
-
-/*font-family: 'Playfair Display', serif;
-
-font-family: 'Open Sans', sans-serif;
-
-font-family: 'Quattrocento', serif;
-
-font-family: 'Quattrocento Sans', sans-serif;*/
