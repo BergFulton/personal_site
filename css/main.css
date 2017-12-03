@@ -19,7 +19,7 @@ h2 {
 h3 {
 	font-family: 'Vast Shadow', cursive;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 	font-weight: bolder;
 }
 
@@ -114,6 +114,11 @@ ul.unstyled_list {
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
 	font-size: 10px;
+}
+
+.faqs {
+	font-family: 'Vast Shadow', cursive;
+	align: left;
 }
 
 /*Clearfix for your floating issues*/
