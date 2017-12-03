@@ -122,6 +122,10 @@ ul.unstyled_list {
 	align: left;
 }
 
+#copy {
+	text-align: center;
+}
+
 /*Clearfix for your floating issues*/
 
 .container,
