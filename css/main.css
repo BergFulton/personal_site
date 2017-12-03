@@ -25,7 +25,7 @@ h3 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 li {
@@ -102,6 +102,18 @@ footer .container {
 
 ul.unstyled_list {
 	padding-left: 0;
+}
+
+#hiring_affirm {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+#hiring_afirm_stamp {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 10px;
 }
 
 /*Clearfix for your floating issues*/
