@@ -12,7 +12,7 @@ Lots! The site now has:
 * A new color scheme. 
 
 ## I want to go to there. 
-Great. Visit [www.traceybergfulton.com](www.traceybergfulton.com).
+Great. Visit [www.traceybergfulton.com](http://www.traceybergfulton.com).
 
 ## I dig your layout, can I use it? 
 Sure. Fork the code and have at it. A little shoutout in your README or 
