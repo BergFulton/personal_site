@@ -156,24 +156,13 @@ ul.unstyled_list {
 }
 
 .img-gallery {
-    margin: 0 auto;
+	margin-top: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.flex-container {
- max-width: 950px;
- display: flex;
- flex-wrap: wrap;
- align-content: center;
- justify-content: center;
- align-items: center;
-}
-
-.flex-item {
- margin: 5px;
- width: 100%;
- max-width: 275px;
-}
-
-.flex-item img {
-	width: 100%;
+.img-gallery .img-embed {
+	margin: 10px;
 }
