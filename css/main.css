@@ -55,13 +55,9 @@ a:hover {
 }
 
 .main-header {
-	color: white;
 	text-align: center;
 }
 
-/*.main-header h1 {
-	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
-}*/
 
 .main-header h2 {
 	color: black;
@@ -79,8 +75,11 @@ a:hover {
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-bottom: 3px solid rgb(204, 0, 102)
-;
+	border-bottom: 3px solid rgb(204, 0, 102);
+}
+
+section.container .gallery-section {
+	border-bottom: none;
 }
 
 .main-header .container,
@@ -135,6 +134,8 @@ ul.unstyled_list {
   clear: both;
 }
 
+
+
 /* Media Queries. Here be dragons. */
 @media (min-width: 500px) {
 	h1 {
@@ -155,14 +156,3 @@ ul.unstyled_list {
 	}
 }
 
-.img-gallery {
-	margin-top: 45px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.img-gallery .img-embed {
-	margin: 10px;
-}
