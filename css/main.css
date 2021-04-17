@@ -80,6 +80,7 @@ a:hover {
 
 section.container .gallery-section {
 	border-bottom: none;
+	padding: 0px 20px;
 }
 
 .main-header .container,
