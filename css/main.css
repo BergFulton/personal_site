@@ -1,129 +1,127 @@
 h1 {
-	text-align: center;
-	font-family: 'Tienne', serif;
-	color: rgb(204, 0, 102);
-	font-size: 2.5em;
-	margin: auto 0;
+  text-align: center;
+  font-family: "Tienne", serif;
+  color: rgb(204, 0, 102);
+  font-size: 2.5em;
+  margin: auto 0;
 }
 
 h2 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	font-size: 1.5em;
-	margin: auto 0;
-
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  margin: auto 0;
 }
 
 h3 {
-	font-family: 'Open Sans', sans-serif;
-	text-align: left;
-	font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-weight: bold;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	text-align: left;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
 }
 
 li {
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	line-height: 1.5;
-	list-style: none;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  list-style: none;
 }
 
 .headlist {
-	display: inline;
-	font-weight: 800;
+  display: inline;
+  font-weight: 800;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:link {
-	color: rgb(204, 0, 102);
+  color: rgb(204, 0, 102);
 }
 
 a:visited {
-	color: rgba(204, 0, 102, 0.45);
+  color: rgba(204, 0, 102, 0.45);
 }
 
 a:hover {
-	color: rgba(204, 0, 102, 0.64);
+  color: rgba(204, 0, 102, 0.64);
 }
 
 .main-header {
-	text-align: center;
+  text-align: center;
 }
 
-
 .main-header h2 {
-	color: black;
-	margin-bottom: 0.5em;
+  color: black;
+  margin-bottom: 0.5em;
 }
 
 .main-header ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-	width: 80%;
-	max-width: 1000px;
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: 3px solid rgb(204, 0, 102);
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgb(204, 0, 102);
 }
 
 section.container .gallery-section {
-	border-bottom: none;
-	padding: 0px 20px;
+  border-bottom: none;
+  padding: 0px 20px;
 }
 
 .main-header .container,
 footer .container {
-	border-bottom: none;
+  border-bottom: none;
 }
 
 .headshot {
-	display: block;
-	padding: 0;
-	margin: 0 auto;
-	width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .body_text {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul.unstyled_list {
-	padding-left: 0;
+  padding-left: 0;
 }
 
-#hiring_affirm {
-	font-family: 'Open Sans', sans-serif;
-	text-align: left;
-	background-color: #ffff66;
+.hiring_affirm {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  background-color: #ffff66;
 }
 
 #hiring_afirm_stamp {
-	font-family: 'Open Sans', sans-serif;
-	text-align: left;
-	font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 10px;
 }
 
 .subsub {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  align: left;
 }
 
 #copy {
-	text-align: center;
+  text-align: center;
 }
 
 /*Clearfix for your floating issues*/
@@ -135,25 +133,23 @@ ul.unstyled_list {
   clear: both;
 }
 
-
-
 /* Media Queries. Here be dragons. */
 @media (min-width: 500px) {
-	h1 {
-		font-size: 4em;
-	}
+  h1 {
+    font-size: 4em;
+  }
 }
 
 @media (min-width: 500px) {
-	.section_header {
-	margin-top: 0; }
+  .section_header {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 500px) {
-	.headshot {
-		float: left;
-		width: 30%;
-		margin: 0 1.5% 1em 0;
-	}
+  .headshot {
+    float: left;
+    width: 30%;
+    margin: 0 1.5% 1em 0;
+  }
 }
-
